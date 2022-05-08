@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet} from 'react-native';
 import AppText from '../components/AppText';
 import colours from '../config/colours';
+import ListItem from '../components/ListItem';
 
 function ListingDetailsScreen(props) {
     return (
@@ -11,6 +12,12 @@ function ListingDetailsScreen(props) {
                 <AppText style={styles.title}>Your Soul is a River</AppText>
                 <AppText style={styles.subTitle}>Nikita Gill</AppText>
                 <AppText style={styles.price}>$25</AppText>
+                <ListItem 
+                    image={require("../assets/kathyProfile.jpg")}
+                    title="Kathy Laine"
+                    subTitle="5 Listings">
+                </ListItem>
+
             </View>
         </View>
     );
