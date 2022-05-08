@@ -3,4 +3,5 @@ export default {
     white: "#fff",
     black: "#363636",
     secondary: "#FFA973",
+    grey: "#737373"
 };
